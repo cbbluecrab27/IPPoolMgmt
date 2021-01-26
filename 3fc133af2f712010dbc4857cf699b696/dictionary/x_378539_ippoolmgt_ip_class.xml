@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="IP Class" max_length="40" name="x_378539_ippoolmgt_ip_class" sizeclass="3" type="collection">
+        <element label="Label" max_length="8" name="label" type="string"/>
+        <element label="Subnet Mask Prefix" max_length="12" name="subnet_mask_prefix" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Subnets" max_length="40" name="x_378539_ippoolmgt_subnets" sizeclass="1" text_index="true" type="collection">
+        <element label="Number of IPs per Subnet" max_length="40" name="number_of_ips" type="integer"/>
+        <element label="Number of Subnets" max_length="40" name="number_of_subnets" type="integer"/>
+        <element display="true" label="Subnet Mask Prefix" max_length="32" name="subnet_mask_prefix" reference="x_378539_ippoolmgt_ip_class" type="reference"/>
+        <element function_definition="glidefunction:multiply(number_of_ips, number_of_subnets)" function_field="true" label="Total IPs" max_length="13" name="total_ips_calc" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="CIDR" max_length="40" name="u_cidr" type="string"/>
+        <element attributes="encode_utf8=false" label="Class" max_length="32" name="u_class" reference="x_378539_ippoolmgt_ip_class" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Subnet Mask Suffix" max_length="15" name="u_subnet_mask_suffix" type="string"/>
+        <index name="index">
+            <element name="u_class"/>
+        </index>
+        <index name="index2">
+            <element name="subnet_mask_prefix"/>
+        </index>
+    </element>
+</database>

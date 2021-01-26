@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="total_ips_calc" label="Total IPs" language="en" table="x_378539_ippoolmgt_subnets">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>total_ips_calc</element>
+            <help/>
+            <hint/>
+            <label>Total IPs</label>
+            <language>en</language>
+            <name>x_378539_ippoolmgt_subnets</name>
+            <plural>Total IPs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 19:37:43</sys_created_on>
+            <sys_id>ee6b0cfb2ff12010dbc4857cf699b617</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Total IPs</sys_name>
+            <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+            <sys_update_name>sys_documentation_x_378539_ippoolmgt_subnets_total_ips_calc_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 19:37:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

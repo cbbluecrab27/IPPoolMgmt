@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sc_request" label="IP Pool Request" max_length="40" name="x_378539_ippoolmgt_ip_pool_request" sizeclass="0" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Desired Subnet" max_length="40" name="desired_subnet" reference="x_378539_ippoolmgt_subnets" type="reference"/>
+        <element attributes="encode_utf8=false" label="Impacted Family" max_length="32" name="impacted_family" reference="x_378539_ippoolmgt_ip_addr_family" type="reference"/>
+        <element label="Subnet IP Value - Start" max_length="40" name="subnet_ip_value_start" type="integer"/>
+    </element>
+</database>

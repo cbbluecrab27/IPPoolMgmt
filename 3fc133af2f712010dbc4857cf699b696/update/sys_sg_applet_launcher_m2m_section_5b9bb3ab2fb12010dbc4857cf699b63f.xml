@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="IP Pool Management">f69b7be72fb12010dbc4857cf699b66b</applet_launcher>
+        <order/>
+        <section display_value="Subnets">539bb3ab2fb12010dbc4857cf699b63f</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 18:28:41</sys_created_on>
+        <sys_id>5b9bb3ab2fb12010dbc4857cf699b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_5b9bb3ab2fb12010dbc4857cf699b63f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 18:28:41</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+</record_update>

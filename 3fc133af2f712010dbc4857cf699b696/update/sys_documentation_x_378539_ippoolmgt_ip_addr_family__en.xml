@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="IP Addr Family" language="en" table="x_378539_ippoolmgt_ip_addr_family">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>IP Addr Family</label>
+            <language>en</language>
+            <name>x_378539_ippoolmgt_ip_addr_family</name>
+            <plural>IP Addr Families</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 17:54:29</sys_created_on>
+            <sys_id>9ac3b3272fb12010dbc4857cf699b6c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>IP Addr Family</sys_name>
+            <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+            <sys_update_name>sys_documentation_x_378539_ippoolmgt_ip_addr_family__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 17:54:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

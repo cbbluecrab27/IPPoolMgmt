@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Edit (IP Addr Family)</name>
+        <query_condition table="x_378539_ippoolmgt_ip_addr_family">sys_idSTARTSWITH{{IP Addr Family sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{IP Addr Family sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 18:28:40</sys_created_on>
+        <sys_id>8f9b73ab2fb12010dbc4857cf699b6fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Edit (IP Addr Family)</sys_name>
+        <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_8f9b73ab2fb12010dbc4857cf699b6fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 18:28:41</sys_updated_on>
+        <table>x_378539_ippoolmgt_ip_addr_family</table>
+        <template>asset={{IP Addr Family asset}}^asset_tag={{IP Addr Family asset_tag}}^assigned={{IP Addr Family assigned}}^assigned_to={{IP Addr Family assigned_to}}^assignment_group={{IP Addr Family assignment_group}}^attestation_score={{IP Addr Family attestation_score}}^attested={{IP Addr Family attested}}^attested_by={{IP Addr Family attested_by}}^attested_date={{IP Addr Family attested_date}}^attributes={{IP Addr Family attributes}}^can_print={{IP Addr Family can_print}}^category={{IP Addr Family category}}^change_control={{IP Addr Family change_control}}^checked_in={{IP Addr Family checked_in}}^checked_out={{IP Addr Family checked_out}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=8f9b73ab2fb12010dbc4857cf699b6fb"/>
+</record_update>
