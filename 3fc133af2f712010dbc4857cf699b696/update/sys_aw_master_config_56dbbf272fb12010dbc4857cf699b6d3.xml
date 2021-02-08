@@ -6,7 +6,7 @@
         <compiled_page_registry display_value="IP Pool Management">56dbbf272fb12010dbc4857cf699b6d4</compiled_page_registry>
         <description>Manage IP Pool</description>
         <global_search display_value="Default search settings">97a574ea53c0130084acddeeff7b12a6</global_search>
-        <global_search_data display_value="IP Pool Management Search Context Config">d6dbbf272fb12010dbc4857cf699b6d1</global_search_data>
+        <global_search_data display_value="">d6dbbf272fb12010dbc4857cf699b6d1</global_search_data>
         <hide_search_results_count>false</hide_search_results_count>
         <name>IP Pool Management</name>
         <navigation_type>tab</navigation_type>

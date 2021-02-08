@@ -3,10 +3,15 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Label</column_label>
@@ -27,15 +32,15 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>32</max_length>
         <name>x_378539_ippoolmgt_subnets</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_378539_ippoolmgt_ip_class">x_378539_ippoolmgt_ip_class</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-25 18:26:51</sys_created_on>
-        <sys_id>243b7f6b2fb12010dbc4857cf699b624</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2021-01-28 19:03:25</sys_created_on>
+        <sys_id>98df1fa42fc22010dbc4857cf699b62d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Label</sys_name>
         <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
         <sys_policy/>
         <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
         <sys_update_name>sys_dictionary_x_378539_ippoolmgt_subnets_label</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-25 18:26:51</sys_updated_on>
+        <sys_updated_on>2021-01-28 20:20:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -75,42 +80,47 @@
         <instance_id>191827b1dbed57007d8cf22ebf9619fc</instance_id>
         <instance_name>dev56733</instance_name>
         <name>sys_dictionary_x_378539_ippoolmgt_subnets_label</name>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="label" table="x_378539_ippoolmgt_subnets"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Label</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>label</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_378539_ippoolmgt_subnets</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-25 18:26:51</sys_created_on><sys_id>243b7f6b2fb12010dbc4857cf699b624</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Label</sys_name><sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package><sys_policy/><sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope><sys_update_name>sys_dictionary_x_378539_ippoolmgt_subnets_label</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-25 18:26:51</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
-        <payload_hash>-1089235733</payload_hash>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="label" table="x_378539_ippoolmgt_subnets"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Label&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;label&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_378539_ippoolmgt_subnets&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="x_378539_ippoolmgt_ip_class"&gt;x_378539_ippoolmgt_ip_class&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-28 19:03:25&lt;/sys_created_on&gt;&lt;sys_id&gt;98df1fa42fc22010dbc4857cf699b62d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Label&lt;/sys_name&gt;&lt;sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt"&gt;3fc133af2f712010dbc4857cf699b696&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IP Pool Management"&gt;3fc133af2f712010dbc4857cf699b696&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_378539_ippoolmgt_subnets_label&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-28 20:20:05&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2088530082</payload_hash>
         <record_name>Subnets.Label</record_name>
         <reverted_from/>
-        <source>fbc1bfa32fb12010dbc4857cf699b6d0</source>
+        <source>5f9157e42f822010dbc4857cf699b6ec</source>
         <source_table>sys_update_set</source_table>
         <state>previous</state>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-25 18:26:51</sys_created_on>
-        <sys_id>643b7f6b2fb12010dbc4857cf699b635</sys_id>
+        <sys_created_on>2021-01-28 20:20:05</sys_created_on>
+        <sys_id>64e1fbe02f062010dbc4857cf699b676</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>1773acc6d910000001</sys_recorded_at>
+        <sys_recorded_at>1774aa72cd00000001</sys_recorded_at>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-25 18:26:51</sys_updated_on>
+        <sys_updated_on>2021-01-28 20:20:05</sys_updated_on>
         <type>Dictionary</type>
-        <update_guid>ec3b7f6b95b12010ad8c9066f456b534</update_guid>
-        <update_guid_history>ec3b7f6b95b12010ad8c9066f456b534:-1089235733</update_guid_history>
+        <update_guid>9ce1fbe082062010089fbc5c76e70575</update_guid>
+        <update_guid_history>9ce1fbe082062010089fbc5c76e70575:-2088530082,ad50a3e4cac220108fe39c1076e0f331:580684299,ce6117a8158220105166fec3838c5e8c:1729122810</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
         <sys_audit_delete/>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-25 19:26:07</sys_created_on>
+        <sys_created_on>2021-01-29 14:45:39</sys_created_on>
         <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
-        <sys_id>afbcaee45bcc46fc8eea2d72f7661ff9</sys_id>
-        <sys_metadata>243b7f6b2fb12010dbc4857cf699b624</sys_metadata>
+        <sys_id>05d6cf81c76647e48272b92950010b61</sys_id>
+        <sys_metadata>98df1fa42fc22010dbc4857cf699b62d</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Label</sys_name>
         <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
-        <sys_parent display_value="Subnets">d83b3f6b2fb12010dbc4857cf699b6c8</sys_parent>
+        <sys_parent display_value="Subnets">4b2117282f822010dbc4857cf699b645</sys_parent>
         <sys_policy/>
         <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
         <sys_scope_delete display_value="">23fb279b227a4fb081e632d554c4eb10</sys_scope_delete>
         <sys_update_name>sys_dictionary_x_378539_ippoolmgt_subnets_label</sys_update_name>
-        <sys_update_version display_value="sys_dictionary_x_378539_ippoolmgt_subnets_label">643b7f6b2fb12010dbc4857cf699b635</sys_update_version>
+        <sys_update_version display_value="sys_dictionary_x_378539_ippoolmgt_subnets_label">64e1fbe02f062010dbc4857cf699b676</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-25 19:26:07</sys_updated_on>
+        <sys_updated_on>2021-01-29 14:45:39</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

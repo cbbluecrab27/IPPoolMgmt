@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>IP Pool Management</name>
+        <order/>
+        <roles>x_378539_ippoolmgt.ippoolmgt_user,x_378539_ippoolmgt.ippoolmgt.admin</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:51:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5cbb80452f422010dbc4857cf699b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IP Pool Management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+        <sys_update_name>sys_ui_application_5cbb80452f422010dbc4857cf699b6de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:51:21</sys_updated_on>
+    </sys_ui_application>
+</record_update>

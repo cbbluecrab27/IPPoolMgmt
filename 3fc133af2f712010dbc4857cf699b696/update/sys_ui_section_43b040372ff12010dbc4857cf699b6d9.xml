@@ -4,27 +4,27 @@
             <element>u_cidr</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 19:24:39</sys_created_on>
-            <sys_id>8b68447b2ff12010dbc4857cf699b66d</sys_id>
+            <sys_created_on>2021-01-29 15:06:13</sys_created_on>
+            <sys_id>58a3bb342f022010dbc4857cf699b6da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_378539_ippoolmgt_subnets" sys_domain="global" view="Default view">43b040372ff12010dbc4857cf699b6d9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 19:24:39</sys_updated_on>
+            <sys_updated_on>2021-01-29 15:06:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_class</element>
+            <element>u_supporting_class</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 19:24:39</sys_created_on>
-            <sys_id>0f68447b2ff12010dbc4857cf699b66d</sys_id>
+            <sys_created_on>2021-01-29 15:06:13</sys_created_on>
+            <sys_id>d8a3bb342f022010dbc4857cf699b6da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_378539_ippoolmgt_subnets" sys_domain="global" view="Default view">43b040372ff12010dbc4857cf699b6d9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 19:24:39</sys_updated_on>
+            <sys_updated_on>2021-01-29 15:06:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 19:24:39</sys_created_on>
-            <sys_id>8f68447b2ff12010dbc4857cf699b66d</sys_id>
+            <sys_created_on>2021-01-29 15:06:13</sys_created_on>
+            <sys_id>5ca3bb342f022010dbc4857cf699b6da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_378539_ippoolmgt_subnets" sys_domain="global" view="Default view">43b040372ff12010dbc4857cf699b6d9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 19:24:39</sys_updated_on>
+            <sys_updated_on>2021-01-29 15:06:13</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>number_of_subnets</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 19:24:39</sys_created_on>
-            <sys_id>0368447b2ff12010dbc4857cf699b66e</sys_id>
+            <sys_created_on>2021-01-29 15:06:13</sys_created_on>
+            <sys_id>dca3bb342f022010dbc4857cf699b6da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_378539_ippoolmgt_subnets" sys_domain="global" view="Default view">43b040372ff12010dbc4857cf699b6d9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 19:24:39</sys_updated_on>
+            <sys_updated_on>2021-01-29 15:06:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,55 +60,69 @@
             <element>number_of_ips</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 19:24:39</sys_created_on>
-            <sys_id>8368447b2ff12010dbc4857cf699b66e</sys_id>
+            <sys_created_on>2021-01-29 15:06:13</sys_created_on>
+            <sys_id>50a3bb342f022010dbc4857cf699b6db</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_378539_ippoolmgt_subnets" sys_domain="global" view="Default view">43b040372ff12010dbc4857cf699b6d9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 19:24:39</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_subnet_mask_suffix</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 19:24:39</sys_created_on>
-            <sys_id>0768447b2ff12010dbc4857cf699b66e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_378539_ippoolmgt_subnets" sys_domain="global" view="Default view">43b040372ff12010dbc4857cf699b6d9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 19:24:39</sys_updated_on>
+            <sys_updated_on>2021-01-29 15:06:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>total_ips_calc</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 19:37:43</sys_created_on>
-            <sys_id>926bc0fb2ff12010dbc4857cf699b67b</sys_id>
+            <sys_created_on>2021-01-29 15:06:13</sys_created_on>
+            <sys_id>d0a3bb342f022010dbc4857cf699b6db</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_378539_ippoolmgt_subnets" sys_domain="global" view="Default view">43b040372ff12010dbc4857cf699b6d9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 19:37:43</sys_updated_on>
+            <sys_updated_on>2021-01-29 15:06:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>subnet_mask_prefix</element>
-            <position>7</position>
+            <element>u_supporting_class.subnet_mask_prefix</element>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 21:43:24</sys_created_on>
-            <sys_id>2728e87f2f352010dbc4857cf699b6cc</sys_id>
+            <sys_created_on>2021-01-29 15:06:13</sys_created_on>
+            <sys_id>54a3bb342f022010dbc4857cf699b6db</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_378539_ippoolmgt_subnets" sys_domain="global" view="Default view">43b040372ff12010dbc4857cf699b6d9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 21:43:24</sys_updated_on>
+            <sys_updated_on>2021-01-29 15:06:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_subnet_mask_suffix</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 15:06:13</sys_created_on>
+            <sys_id>d4a3bb342f022010dbc4857cf699b6db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_378539_ippoolmgt_subnets" sys_domain="global" view="Default view">43b040372ff12010dbc4857cf699b6d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 15:06:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subnet_mask</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 15:06:13</sys_created_on>
+            <sys_id>58a3bb342f022010dbc4857cf699b6db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_378539_ippoolmgt_subnets" sys_domain="global" view="Default view">43b040372ff12010dbc4857cf699b6d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 15:06:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

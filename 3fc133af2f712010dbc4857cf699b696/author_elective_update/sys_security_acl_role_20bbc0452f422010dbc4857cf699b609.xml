@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:51:22</sys_created_on>
+        <sys_id>20bbc0452f422010dbc4857cf699b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_378539_ippoolmgt_ip_address_ext.x_378539_ippoolmgt.ip_address_ext_user</sys_name>
+        <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+        <sys_security_acl display_value="x_378539_ippoolmgt_ip_address_ext">a0bbc0452f422010dbc4857cf699b606</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_20bbc0452f422010dbc4857cf699b609</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:51:22</sys_updated_on>
+        <sys_user_role display_value="x_378539_ippoolmgt.ip_address_ext_user" name="x_378539_ippoolmgt.ip_address_ext_user">54bb40412f422010dbc4857cf699b6cd</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</application>
+        <file_path/>
+        <instance_id>191827b1dbed57007d8cf22ebf9619fc</instance_id>
+        <instance_name>dev56733</instance_name>
+        <name>sys_security_acl_role_20bbc0452f422010dbc4857cf699b609</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-29 16:51:22</sys_created_on><sys_id>20bbc0452f422010dbc4857cf699b609</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_378539_ippoolmgt_ip_address_ext.x_378539_ippoolmgt.ip_address_ext_user</sys_name><sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package><sys_policy/><sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope><sys_security_acl display_value="x_378539_ippoolmgt_ip_address_ext">a0bbc0452f422010dbc4857cf699b606</sys_security_acl><sys_update_name>sys_security_acl_role_20bbc0452f422010dbc4857cf699b609</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-29 16:51:22</sys_updated_on><sys_user_role display_value="x_378539_ippoolmgt.ip_address_ext_user" name="x_378539_ippoolmgt.ip_address_ext_user">54bb40412f422010dbc4857cf699b6cd</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1786504126</payload_hash>
+        <record_name>x_378539_ippoolmgt_ip_address_ext.x_378539_ippoolmgt.ip_address_ext_user</record_name>
+        <reverted_from/>
+        <source>5f9157e42f822010dbc4857cf699b6ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:51:22</sys_created_on>
+        <sys_id>68bbc0452f422010dbc4857cf699b60b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1774f0e6fc10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:51:22</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a0bbc045914220101ff7160e1cbd8d0b</update_guid>
+        <update_guid_history>a0bbc045914220101ff7160e1cbd8d0b:-1786504126</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_378539_ippoolmgt_ip_address_ext.x_378539_ippoolmgt.ip_address_ext_user">97bf04092f422010dbc4857cf699b60b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 17:09:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>490946624d2c44fcaf0376a80ed63264</sys_id>
+        <sys_metadata>20bbc0452f422010dbc4857cf699b609</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_378539_ippoolmgt_ip_address_ext.x_378539_ippoolmgt.ip_address_ext_user</sys_name>
+        <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+        <sys_parent display_value="">a0bbc0452f422010dbc4857cf699b606</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+        <sys_scope_delete display_value="">23fb279b227a4fb081e632d554c4eb10</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_20bbc0452f422010dbc4857cf699b609</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_20bbc0452f422010dbc4857cf699b609">68bbc0452f422010dbc4857cf699b60b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 17:09:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

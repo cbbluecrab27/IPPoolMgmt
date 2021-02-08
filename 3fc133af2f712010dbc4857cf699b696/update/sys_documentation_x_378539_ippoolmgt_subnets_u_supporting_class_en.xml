@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_supporting_class" label="Supporting Class" language="en" table="x_378539_ippoolmgt_subnets">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_supporting_class</element>
+            <help/>
+            <hint/>
+            <label>Supporting Class</label>
+            <language>en</language>
+            <name>x_378539_ippoolmgt_subnets</name>
+            <plural>Supporting Class</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 14:50:14</sys_created_on>
+            <sys_id>deff2ff02f022010dbc4857cf699b6fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Supporting Class</sys_name>
+            <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+            <sys_update_name>sys_documentation_x_378539_ippoolmgt_subnets_u_supporting_class_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 14:50:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

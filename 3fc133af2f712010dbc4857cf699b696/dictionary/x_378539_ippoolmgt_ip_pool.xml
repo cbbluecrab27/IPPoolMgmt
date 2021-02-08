@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="IP Pool" max_length="40" name="x_378539_ippoolmgt_ip_pool" sizeclass="0" type="collection"/>
+</database>
