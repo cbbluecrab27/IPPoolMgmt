@@ -3,7 +3,7 @@
         <interleave_order_direction>asc</interleave_order_direction>
         <name>Subnets Item Stream Segment</name>
         <order>0</order>
-        <screen display_value="Subnets">5f9bb3ab2fb12010dbc4857cf699b633</screen>
+        <screen/>
         <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-25 18:28:41</sys_created_on>

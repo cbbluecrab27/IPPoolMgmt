@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="DELETE">
+        <data_item/>
+        <dependency_fields>label,number_of_ips,number_of_subnets</dependency_fields>
+        <item_view_json>{"Children":[{"Children":[{"Children":[{"Font":{"Weight":"semibold","Size":13},"Text":"","BackgroundColor":"#f1f1f1","Width":100,"Height":21,"TextColor":"#293e40","CornerRadius":2,"CellId":"label","TextAlignment":"Center","MaxLines":1,"studio_template_field_id":"E1","Type":"Text"}],"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Margin":{"Right":12},"Type":"ViewGroup"},{"Children":[{"Font":{"Weight":"regular","Size":13},"Text":"","TextColor":"#7d8a8c","CellId":"number_of_ips","TextAlignment":"Right","MaxLines":1,"studio_template_field_id":"E2","Type":"Text"}],"Orientation":"Vertical","Alignment":"Right","Distribution":"Auto","Type":"ViewGroup"}],"Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Equal","Type":"ViewGroup"},{"Font":{"Weight":"regular","Size":18},"Text":"","TextColor":"#293e40","CellId":"number_of_subnets","TextAlignment":"Left","MaxLines":2,"studio_template_field_id":"E3","Margin":{"Top":9},"Type":"Text"},{"Children":[{"Children":[{"Font":{"Weight":"regular","Size":13},"Text":"","studio_template_is_label":true,"TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E4","Margin":{"Right":8},"Type":"Text"},{"Width":22,"Height":22,"CornerRadius":11,"CellId":"","Scaling":"Fill","studio_template_field_id":"E5","Margin":{"Right":6},"Type":"Image"},{"Font":{"Weight":"regular","Size":13},"Text":"","TextColor":"#293e40","CellId":"","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E4","Type":"Text"}],"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{"Top":9},"Type":"ViewGroup"},{"Children":[{"Font":{"Weight":"regular","Size":13},"Text":"","studio_template_is_label":true,"TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E6","Margin":{"Right":8},"Type":"Text"},{"Font":{"Weight":"regular","Size":13},"Text":"","TextColor":"#293e40","CellId":"","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E6","Type":"Text"}],"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{"Top":7},"Type":"ViewGroup"}],"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Type":"ViewGroup"}],"Orientation":"Vertical","Alignment":"Stretch","Distribution":"Auto","studio_card_id":"9599488923452300a8ed7f4fc7bf652e","Margin":{"Bottom":15,"Top":17},"Type":"ViewGroup"}</item_view_json>
+        <name>Subnets List Screen Item View</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 18:28:41</sys_created_on>
+        <sys_id>579bb3ab2fb12010dbc4857cf699b633</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Subnets List Screen Item View</sys_name>
+        <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+        <sys_update_name>sys_sg_item_view_579bb3ab2fb12010dbc4857cf699b633</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 18:28:41</sys_updated_on>
+        <table>x_378539_ippoolmgt_subnets</table>
+        <ui_styles/>
+    </sys_sg_item_view>
+    <sys_translated_text action="DELETE" query="documentkey=579bb3ab2fb12010dbc4857cf699b633"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</application>
+        <file_path/>
+        <instance_id>191827b1dbed57007d8cf22ebf9619fc</instance_id>
+        <instance_name>dev56733</instance_name>
+        <name>sys_sg_item_view_579bb3ab2fb12010dbc4857cf699b633</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view"><sys_sg_item_view action="INSERT_OR_UPDATE"><data_item/><dependency_fields>label,number_of_ips,number_of_subnets</dependency_fields><item_view_json>{"Children":[{"Children":[{"Children":[{"Font":{"Weight":"semibold","Size":13},"Text":"","BackgroundColor":"#f1f1f1","Width":100,"Height":21,"TextColor":"#293e40","CornerRadius":2,"CellId":"label","TextAlignment":"Center","MaxLines":1,"studio_template_field_id":"E1","Type":"Text"}],"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Margin":{"Right":12},"Type":"ViewGroup"},{"Children":[{"Font":{"Weight":"regular","Size":13},"Text":"","TextColor":"#7d8a8c","CellId":"number_of_ips","TextAlignment":"Right","MaxLines":1,"studio_template_field_id":"E2","Type":"Text"}],"Orientation":"Vertical","Alignment":"Right","Distribution":"Auto","Type":"ViewGroup"}],"Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Equal","Type":"ViewGroup"},{"Font":{"Weight":"regular","Size":18},"Text":"","TextColor":"#293e40","CellId":"number_of_subnets","TextAlignment":"Left","MaxLines":2,"studio_template_field_id":"E3","Margin":{"Top":9},"Type":"Text"},{"Children":[{"Children":[{"Font":{"Weight":"regular","Size":13},"Text":"","studio_template_is_label":true,"TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E4","Margin":{"Right":8},"Type":"Text"},{"Width":22,"Height":22,"CornerRadius":11,"CellId":"","Scaling":"Fill","studio_template_field_id":"E5","Margin":{"Right":6},"Type":"Image"},{"Font":{"Weight":"regular","Size":13},"Text":"","TextColor":"#293e40","CellId":"","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E4","Type":"Text"}],"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{"Top":9},"Type":"ViewGroup"},{"Children":[{"Font":{"Weight":"regular","Size":13},"Text":"","studio_template_is_label":true,"TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E6","Margin":{"Right":8},"Type":"Text"},{"Font":{"Weight":"regular","Size":13},"Text":"","TextColor":"#293e40","CellId":"","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E6","Type":"Text"}],"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{"Top":7},"Type":"ViewGroup"}],"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Type":"ViewGroup"}],"Orientation":"Vertical","Alignment":"Stretch","Distribution":"Auto","studio_card_id":"9599488923452300a8ed7f4fc7bf652e","Margin":{"Bottom":15,"Top":17},"Type":"ViewGroup"}</item_view_json><name>Subnets List Screen Item View</name><short_description/><sys_class_name>sys_sg_item_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-25 18:28:41</sys_created_on><sys_id>579bb3ab2fb12010dbc4857cf699b633</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Subnets List Screen Item View</sys_name><sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package><sys_policy/><sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope><sys_update_name>sys_sg_item_view_579bb3ab2fb12010dbc4857cf699b633</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-25 18:28:41</sys_updated_on><table>x_378539_ippoolmgt_subnets</table><ui_styles/></sys_sg_item_view><sys_translated_text action="delete_multiple" query="documentkey=579bb3ab2fb12010dbc4857cf699b633"/></record_update>]]></payload>
+        <payload_hash>-475673120</payload_hash>
+        <record_name>Subnets List Screen Item View</record_name>
+        <reverted_from/>
+        <source>5f9157e42f822010dbc4857cf699b6ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-09 15:54:48</sys_created_on>
+        <sys_id>97382ca82f122010dbc4857cf699b695</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17787809bc00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-09 15:54:48</sys_updated_on>
+        <type>Item view</type>
+        <update_guid>17382ca8e6122010060c7f83924a6695</update_guid>
+        <update_guid_history>17382ca8e6122010060c7f83924a6695:0,cc6153a80c8220103d6e9710614f7654:-101883130</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-09 15:54:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_item_view">sys_sg_item_view</sys_db_object>
+        <sys_id>24a30616b67b4f2b8aaf8823f468adf9</sys_id>
+        <sys_metadata>579bb3ab2fb12010dbc4857cf699b633</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Subnets List Screen Item View</sys_name>
+        <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+        <sys_scope_delete display_value="">23fb279b227a4fb081e632d554c4eb10</sys_scope_delete>
+        <sys_update_name>sys_sg_item_view_579bb3ab2fb12010dbc4857cf699b633</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_view_579bb3ab2fb12010dbc4857cf699b633">97382ca82f122010dbc4857cf699b695</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-09 15:54:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

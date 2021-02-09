@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-09 15:36:27</sys_created_on>
+        <sys_id>9e04e4e42f122010dbc4857cf699b6d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_378539_ippoolmgt_pool_subnet.x_378539_ippoolmgt.pool_subnet_user</sys_name>
+        <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+        <sys_security_acl display_value="x_378539_ippoolmgt_pool_subnet">1204e4e42f122010dbc4857cf699b6d0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9e04e4e42f122010dbc4857cf699b6d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-09 15:36:27</sys_updated_on>
+        <sys_user_role display_value="x_378539_ippoolmgt.pool_subnet_user" name="x_378539_ippoolmgt.pool_subnet_user">060424a42f122010dbc4857cf699b6a5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

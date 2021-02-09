@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="sc_request" label="IP Pool Request" max_length="40" name="x_378539_ippoolmgt_ip_pool_request" sizeclass="0" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Desired Subnet" max_length="40" name="desired_subnet" reference="x_378539_ippoolmgt_subnets" type="reference"/>
+        <element label="First Octet" max_length="3" name="first_octet" type="integer"/>
+        <element default="0" label="Fourth Octet" max_length="3" name="fourth_octet" type="integer"/>
         <element attributes="encode_utf8=false" label="Impacted Family" max_length="32" name="impacted_family" reference="x_378539_ippoolmgt_ip_addr_family" type="reference"/>
+        <element label="Second Octet" max_length="3" name="second_octet" type="integer"/>
+        <element label="Subnet IP Value - End" max_length="15" name="subnet_ip_value_end" type="integer"/>
         <element label="Subnet IP Value - Start" max_length="40" name="subnet_ip_value_start" type="integer"/>
+        <element label="Third Octet" max_length="3" name="third_octet" type="integer"/>
     </element>
 </database>

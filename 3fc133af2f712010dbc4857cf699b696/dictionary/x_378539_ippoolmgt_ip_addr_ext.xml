@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="cmdb_ci_ip_address" label="IP Addr Ext" max_length="40" name="x_378539_ippoolmgt_ip_addr_ext" sizeclass="0" type="collection">
+        <element label="First Octet" max_length="3" name="first_octet" type="integer"/>
+        <element default="0" label="Fourth Octet" max_length="3" name="fourth_octet" type="integer"/>
+        <element function_definition="glidefunction:concat(ip_pool.first_octet, '.', ip_pool.second_octet, '.', ip_pool.third_octet,'.',ip_pool.fourth_octet)" function_field="true" label="IP" max_length="15" name="ip" read_only="true" type="string"/>
         <element label="IP Family" max_length="32" name="ip_family" reference="x_378539_ippoolmgt_ip_addr_family" type="reference"/>
+        <element label="Second Octet" max_length="3" name="second_octet" type="integer"/>
+        <element label="Subnet IP Value" max_length="40" name="subnet_ip_value" type="integer"/>
+        <element default="0" label="Third Octet" max_length="3" name="third_octet" type="integer"/>
     </element>
 </database>

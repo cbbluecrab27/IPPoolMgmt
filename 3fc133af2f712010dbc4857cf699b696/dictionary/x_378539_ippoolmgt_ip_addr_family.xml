@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="cmdb_ci" label="IP Addr Family" max_length="40" name="x_378539_ippoolmgt_ip_addr_family" sizeclass="0" text_index="true" type="collection">
         <element label="First Octet" max_length="40" name="first_octet" type="integer"/>
-        <element label="Fourth Octet - End" max_length="40" name="fourth_octet_end" type="integer"/>
-        <element label="Fourth Octet - Start" max_length="40" name="fourth_octet_start" type="integer"/>
+        <element default="255" label="Fourth Octet - End" max_length="40" name="fourth_octet_end" type="integer"/>
+        <element default="0" label="Fourth Octet - Start" max_length="40" name="fourth_octet_start" type="integer"/>
         <element label="Second Octet" max_length="40" name="second_octet" type="integer"/>
+        <element label="Subnet IP Value - End" max_length="40" name="subnet_ip_value_end" type="integer"/>
+        <element label="Subnet IP Value - Start" max_length="40" name="subnet_ip_value_start" type="integer"/>
         <element label="Third Octet" max_length="40" name="third_octet" type="integer"/>
     </element>
 </database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="IP Request Impacted Pools" max_length="40" name="x_378539_ippoolmgt_m2m_ip_pools_ip_pool_requests" sizeclass="0" type="collection">
+        <element attributes="encode_utf8=false" label="IP Pool" max_length="32" name="ip_pool" reference="x_378539_ippoolmgt_ip_pool" type="reference"/>
+        <element attributes="encode_utf8=false" label="IP Pool Request" max_length="32" name="ip_pool_request" reference="x_378539_ippoolmgt_ip_pool_request" type="reference"/>
+        <index name="index">
+            <element name="ip_pool"/>
+        </index>
+        <index name="index2">
+            <element name="ip_pool_request"/>
+        </index>
+    </element>
+</database>

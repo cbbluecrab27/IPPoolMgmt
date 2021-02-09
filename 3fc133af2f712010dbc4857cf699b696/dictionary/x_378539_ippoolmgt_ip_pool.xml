@@ -1,3 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="IP Pool" max_length="40" name="x_378539_ippoolmgt_ip_pool" sizeclass="0" type="collection"/>
+    <element label="IP Pool" max_length="40" name="x_378539_ippoolmgt_ip_pool" sizeclass="0" type="collection">
+        <element default="0" label="First Octet - End" max_length="3" name="first_octet_end" type="integer"/>
+        <element default="0" label="First Octet - Start" max_length="3" name="first_octet_start" type="integer"/>
+        <element default="255" label="Fourth Octet - End" max_length="3" name="fourth_octet_end" type="integer"/>
+        <element default="0" label="Fourth Octet - Start" max_length="3" name="fourth_octet_start" type="integer"/>
+        <element function_definition="glidefunction:concat(ip_pool.first_octet_end, '.', ip_pool.second_octet_end, '.', ip_pool.third_octet_end,'.',ip_pool.fourth_octet_end)" function_field="true" label="IP - End" max_length="15" name="ip_end" read_only="true" type="string"/>
+        <element function_definition="glidefunction:concat(ip_pool.first_octet_start, '.', ip_pool.second_octet_start, '.', ip_pool.third_octet_start,'.',ip_pool.fourth_octet_start)" function_field="true" label="IP - Start" max_length="15" name="ip_start" read_only="true" type="string"/>
+        <element function_definition="glidefunction:concat(ip_pool.first_octet_end, '.', ip_pool.second_octet_end, '.', ip_pool.third_octet_end,'.',ip_pool.fourth_octet_end)" function_field="true" label="Name" max_length="20" name="name" read_only="true" type="string"/>
+        <element label="Second Octet - End" max_length="3" name="second_octet_end" type="integer"/>
+        <element default="0" label="Second Octet - Start" max_length="3" name="second_octet_start" type="integer"/>
+        <element label="Subnets Row Id" max_length="32" name="subnets_row_id" reference="x_378539_ippoolmgt_subnets" type="reference"/>
+        <element label="Subnet IP Value - End" max_length="40" name="subnet_ip_value_end" type="integer"/>
+        <element label="Subnet IP Value - Start" max_length="40" name="subnet_ip_value_start" type="integer"/>
+        <element default="0" label="Third Octet - End" max_length="3" name="third_octet_end" type="integer"/>
+        <element default="0" label="Third Octet - Start" max_length="3" name="third_octet_start" type="integer"/>
+        <index name="index">
+            <element name="subnets_row_id"/>
+        </index>
+    </element>
 </database>

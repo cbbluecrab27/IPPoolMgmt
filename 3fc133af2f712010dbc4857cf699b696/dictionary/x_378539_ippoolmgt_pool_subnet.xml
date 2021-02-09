@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Pool Subnet" max_length="40" name="x_378539_ippoolmgt_pool_subnet" type="collection">
+        <element display="true" label="CIDR" max_length="40" name="cidr" type="string"/>
+        <element function_definition="glidefunction:multiply(number_of_ips_per_subnet, number_of_subnets_per_pool)" function_field="true" label="Number of IPs per Pool" max_length="11" name="number_of_ips_per_pool" read_only="true" type="integer"/>
+        <element label="Number of IPs per Subnet" max_length="5" name="number_of_ips_per_subnet" type="integer"/>
+        <element label="Number of Subnets per Pool" max_length="5" name="number_of_subnets_per_pool" type="integer"/>
+        <element function_definition="glidefunction:concat(u_supporting_class.subnet_mask_prefix,u_subnet_mask_suffix,'.0')" function_field="true" label="Subnet Mask" max_length="40" name="subnet_mask" read_only="true" type="string"/>
+        <element label="Subnet Mask Suffix" max_length="15" name="subnet_mask_suffix" type="string"/>
+        <element label="Supporting Class" max_length="32" name="supporting_class" reference="x_378539_ippoolmgt_ip_class" type="reference"/>
+        <index name="index">
+            <element name="supporting_class"/>
+        </index>
+    </element>
+</database>

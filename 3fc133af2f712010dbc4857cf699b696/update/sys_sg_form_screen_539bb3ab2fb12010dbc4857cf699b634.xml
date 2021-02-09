@@ -9,7 +9,7 @@
         <hide_filters>false</hide_filters>
         <hide_screen_name>false</hide_screen_name>
         <icon display_value="icon-Address-Book">f69b7be72fb12010dbc4857cf699b66a</icon>
-        <item_view display_value="Subnets Detail Screen Item View">5b9bb3ab2fb12010dbc4857cf699b633</item_view>
+        <item_view/>
         <name>Subnets Form Screen</name>
         <roles_override/>
         <sys_class_name>sys_sg_form_screen</sys_class_name>

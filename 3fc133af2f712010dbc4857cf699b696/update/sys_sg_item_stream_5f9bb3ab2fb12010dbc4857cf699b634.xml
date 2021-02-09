@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
     <sys_sg_item_stream action="INSERT_OR_UPDATE">
-        <data_item display_value="IP Pool Management Subnets">539bb3ab2fb12010dbc4857cf699b633</data_item>
+        <data_item/>
         <interleaved_field/>
         <name>Subnets Item Stream</name>
         <sys_class_name>sys_sg_item_stream</sys_class_name>

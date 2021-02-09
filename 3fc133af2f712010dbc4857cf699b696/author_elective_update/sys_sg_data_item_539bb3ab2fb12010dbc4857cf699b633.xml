@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>IP Pool Management Subnets</name>
+        <query_condition/>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 18:28:41</sys_created_on>
+        <sys_id>539bb3ab2fb12010dbc4857cf699b633</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IP Pool Management Subnets</sys_name>
+        <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+        <sys_update_name>sys_sg_data_item_539bb3ab2fb12010dbc4857cf699b633</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 18:28:41</sys_updated_on>
+        <table>x_378539_ippoolmgt_subnets</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=539bb3ab2fb12010dbc4857cf699b633"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</application>
+        <file_path/>
+        <instance_id>191827b1dbed57007d8cf22ebf9619fc</instance_id>
+        <instance_name>dev56733</instance_name>
+        <name>sys_sg_data_item_539bb3ab2fb12010dbc4857cf699b633</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>IP Pool Management Subnets</name>
+        <query_condition/>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 18:28:41</sys_created_on>
+        <sys_id>539bb3ab2fb12010dbc4857cf699b633</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IP Pool Management Subnets</sys_name>
+        <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+        <sys_update_name>sys_sg_data_item_539bb3ab2fb12010dbc4857cf699b633</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 18:28:41</sys_updated_on>
+        <table>x_378539_ippoolmgt_subnets</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=539bb3ab2fb12010dbc4857cf699b633"/>
+</record_update>]]></payload>
+        <payload_hash>-795508028</payload_hash>
+        <record_name>IP Pool Management Subnets</record_name>
+        <reverted_from/>
+        <source>b82113282f822010dbc4857cf699b652</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 17:58:01</sys_created_on>
+        <sys_id>1b51df682f822010dbc4857cf699b658</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1774a251bbf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 17:58:01</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>d751df68c18220101d7adf83d86d1858</update_guid>
+        <update_guid_history>d751df68c18220101d7adf83d86d1858:-795508028</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-09 15:54:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>5cf4043f080b4022b630aeabda44ce24</sys_id>
+        <sys_metadata>539bb3ab2fb12010dbc4857cf699b633</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IP Pool Management Subnets</sys_name>
+        <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+        <sys_scope_delete display_value="">23fb279b227a4fb081e632d554c4eb10</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_539bb3ab2fb12010dbc4857cf699b633</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_539bb3ab2fb12010dbc4857cf699b633">1b51df682f822010dbc4857cf699b658</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-09 15:54:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
