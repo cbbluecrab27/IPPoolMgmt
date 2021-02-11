@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmdb_ci" label="IP Addr Family" max_length="40" name="x_378539_ippoolmgt_ip_addr_family" sizeclass="0" text_index="true" type="collection">
+    <element extends="cmdb_ci" label="IP Addr Family" max_length="40" name="x_378539_ippoolmgt_ip_addr_family" sizeclass="1" text_index="true" type="collection">
         <element label="First Octet" max_length="40" name="first_octet" type="integer"/>
         <element default="255" label="Fourth Octet - End" max_length="40" name="fourth_octet_end" type="integer"/>
         <element default="0" label="Fourth Octet - Start" max_length="40" name="fourth_octet_start" type="integer"/>
         <element label="Second Octet" max_length="40" name="second_octet" type="integer"/>
-        <element label="Subnet IP Value - End" max_length="40" name="subnet_ip_value_end" type="integer"/>
-        <element label="Subnet IP Value - Start" max_length="40" name="subnet_ip_value_start" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;    var result = current.first_octet * Math.pow(256, 3);&#13;&#10;        result = result + current.second_octet * Math.pow(256, 2);&#13;&#10;        result = result + current.third_octet * Math.pow(256, 1);&#13;&#10;        result = result + current.fourth_octet_end * Math.pow(256, 0) ;&#13;&#10;    return result; // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Subnet IP Value - End" max_length="40" name="subnet_ip_value_end" type="integer" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;    var result = current.first_octet * Math.pow(256, 3);&#13;&#10;        result = result + current.second_octet * Math.pow(256, 2);&#13;&#10;        result = result + current.third_octet * Math.pow(256, 1);&#13;&#10;        result = result + current.fourth_octet_start * Math.pow(256, 0) ;&#13;&#10;    return result; // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Subnet IP Value - Start" max_length="40" name="subnet_ip_value_start" type="integer" virtual="true"/>
         <element label="Third Octet" max_length="40" name="third_octet" type="integer"/>
+        <element display="true" function_definition="glidefunction:concat(first_octet, '.', second_octet, '.', third_octet)" function_field="true" label="Three Octet" max_length="11" name="three_octet" read_only="true" type="string"/>
     </element>
 </database>

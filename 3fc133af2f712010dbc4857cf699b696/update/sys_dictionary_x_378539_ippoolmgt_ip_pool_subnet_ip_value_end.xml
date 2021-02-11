@@ -8,7 +8,11 @@
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
 	// Add your code here
-	return '';  // return the calculated value
+    var result = current.first_octet_end * Math.pow(256, 3);
+        result = result + current.second_octet_end * Math.pow(256, 2);
+        result = result + current.third_octet_end * Math.pow(256, 1);
+        result = result + current.fourth_octet_end * Math.pow(256, 0) ;
+    return result; // return the calculated value
 
 })(current);]]></calculation>
         <choice/>
@@ -54,21 +58,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 20:41:15</sys_created_on>
         <sys_id>0020249c2f522010dbc4857cf699b63e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Subnet IP Value - End</sys_name>
         <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
         <sys_policy/>
         <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
         <sys_update_name>sys_dictionary_x_378539_ippoolmgt_ip_pool_subnet_ip_value_end</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-08 20:41:15</sys_updated_on>
+        <sys_updated_on>2021-02-10 16:20:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

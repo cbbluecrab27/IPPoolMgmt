@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="three_octet_supported" label="Three Octet - Supported" language="en" table="x_378539_ippoolmgt_ip_addr_ext">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>three_octet_supported</element>
+            <help/>
+            <hint/>
+            <label>Three Octet - Supported</label>
+            <language>en</language>
+            <name>x_378539_ippoolmgt_ip_addr_ext</name>
+            <plural>Three Octet - Supported</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-10 20:33:04</sys_created_on>
+            <sys_id>1d817e7c2f922010dbc4857cf699b601</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Three Octet - Supported</sys_name>
+            <sys_package display_value="IP Pool Management" source="x_378539_ippoolmgt">3fc133af2f712010dbc4857cf699b696</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IP Pool Management">3fc133af2f712010dbc4857cf699b696</sys_scope>
+            <sys_update_name>sys_documentation_x_378539_ippoolmgt_ip_addr_ext_three_octet_supported_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-10 20:33:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

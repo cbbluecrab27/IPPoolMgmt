@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sc_request" label="IP Pool Request" max_length="40" name="x_378539_ippoolmgt_ip_pool_request" sizeclass="0" text_index="true" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Desired Subnet" max_length="40" name="desired_subnet" reference="x_378539_ippoolmgt_subnets" type="reference"/>
-        <element label="First Octet" max_length="3" name="first_octet" type="integer"/>
-        <element default="0" label="Fourth Octet" max_length="3" name="fourth_octet" type="integer"/>
+    <element extends="sc_request" label="IP Pool Request" max_length="40" name="x_378539_ippoolmgt_ip_pool_request" sizeclass="1" text_index="true" type="collection">
+        <element label="First Octet - End" max_length="3" name="first_octet_end" type="integer"/>
+        <element label="First Octet - Requested" max_length="3" name="first_octet_requested" type="integer"/>
+        <element label="First Octet - Start" max_length="3" name="first_octet_start" type="integer"/>
+        <element label="Fourth Octet - End" max_length="3" name="fourth_octet_end" type="integer"/>
+        <element label="Fourth Octet - Requested" max_length="3" name="fourth_octet_requested" type="integer"/>
+        <element label="Fourth Octet - Start" max_length="3" name="fourth_octet_start" type="integer"/>
         <element attributes="encode_utf8=false" label="Impacted Family" max_length="32" name="impacted_family" reference="x_378539_ippoolmgt_ip_addr_family" type="reference"/>
-        <element label="Second Octet" max_length="3" name="second_octet" type="integer"/>
-        <element label="Subnet IP Value - End" max_length="15" name="subnet_ip_value_end" type="integer"/>
-        <element label="Subnet IP Value - Start" max_length="40" name="subnet_ip_value_start" type="integer"/>
-        <element label="Third Octet" max_length="3" name="third_octet" type="integer"/>
+        <element function_definition="glidefunction:concat(first_octet_end, '.', second_octet_end, '.', third_octet_end,'.',fourth_octet_end)" function_field="true" label="IP - End" max_length="15" name="ip_end" read_only="true" type="string"/>
+        <element function_definition="glidefunction:concat(first_octet_start, '.', second_octet_start, '.', third_octet_start,'.',fourth_octet_start)" function_field="true" label="IP - Start" max_length="15" name="ip_start" read_only="true" type="string"/>
+        <element label="Second Octet - End" max_length="3" name="second_octet_end" type="integer"/>
+        <element label="Second Octet - Requested" max_length="3" name="second_octet_requested" type="integer"/>
+        <element label="Second Octet - Start" max_length="3" name="second_octet_start" type="integer"/>
+        <element label="Start" max_length="65536" name="start" type="html"/>
+        <element label="Starting Octets" max_length="65536" name="starting_octets_label" type="html"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;    var result = current.first_octet_end * Math.pow(256, 3);&#13;&#10;        result = result + current.second_octet_end * Math.pow(256, 2);&#13;&#10;        result = result + current.third_octet_end * Math.pow(256, 1);&#13;&#10;        result = result + current.fourth_octet_end * Math.pow(256, 0) ;&#13;&#10;    return result; // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Subnet IP Value - End" max_length="15" name="subnet_ip_value_end" type="integer" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;    var result = current.first_octet_start * Math.pow(256, 3);&#13;&#10;        result = result + current.second_octet_start * Math.pow(256, 2);&#13;&#10;        result = result + current.third_octet_start * Math.pow(256, 1);&#13;&#10;        result = result + current.fourth_octet_start * Math.pow(256, 0) ;&#13;&#10;    return result; // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Subnet IP Value - Start" max_length="40" name="subnet_ip_value_start" type="integer" virtual="true"/>
+        <element label="Subnet Value" max_length="32" name="subnet_value" reference="x_378539_ippoolmgt_pool_subnet" type="reference"/>
+        <element label="Third Octet - End" max_length="3" name="third_octet_end" type="integer"/>
+        <element label="Third Octet - Requested" max_length="3" name="third_octet_requested" type="integer"/>
+        <element label="Third Octet - Start" max_length="3" name="third_octet_start" type="integer"/>
     </element>
 </database>
